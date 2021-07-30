@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.button {
+  display: inline-block;
+  text-transform: capitalize;
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #089a9a;
+  border: none;
+  border-radius: 5px;
+}
+.button:hover {
+  box-shadow: 0 5px 3px #234c4b;
+}
+
+.button:active {
+  background-color: #132cea;
+  transform: translateY(4px);
+}
