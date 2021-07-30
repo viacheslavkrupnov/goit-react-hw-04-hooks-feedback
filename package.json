@@ -42,7 +42,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.30.0",
+    "eslint": "^7.31.0",
     "husky": "^7.0.1",
     "lint-staged": "^11.0.1",
     "prettier": "^2.3.2",
@@ -50,6 +50,7 @@
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
-    "*.{js,css,md,scss}": "prettier --write"
+    "*.{js,css,md,scss}": "prettier --write",
+    "*.{js,css,md}": "prettier --write"
   }
 }
